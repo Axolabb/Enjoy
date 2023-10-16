@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(32, 32, 32);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.animation-width {
+    height: 78.4px;
+    width: 100vw;
+    border-radius: 40px;
+    position: relative;
+}
+.block {
+    background-color: rgb(122, 122, 122);
+    border-radius: px;
+    height: 100px;
+    width: 32vw;
+    position: absolute;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.animate1{
+    animation: animate 3s infinite alternate;
+}
+.animate2{
+    animation: animate 3.1s infinite alternate;
+}
+.animate3{
+    animation: animate 3.2s infinite alternate;
+}
+.animate4{
+    animation: animate 3.3s infinite alternate;
+}
+.animate5{
+    animation: animate 3.4s infinite alternate;
+}
+.animate6{
+    animation: animate 3.5s infinite alternate;
+}
+.animate7{
+    animation: animate 3.6s infinite alternate;
+}
+.animate8{
+    animation: animate 3.7s infinite alternate;
+}
+.animate9{
+    animation: animate 3.8s infinite alternate;
+}
+.animate10{
+    animation: animate 3.9s infinite alternate;
+}
+.animate11{
+    animation: animate 4s infinite alternate;
+}
+.animate12{
+    animation: animate 4.1s infinite alternate;
+}
+.animate1-right{
+    animation: animate-right 3s infinite alternate;
+}
+.animate2-right{
+    animation: animate-right 3.1s infinite alternate;
+}
+.animate3-right{
+    animation: animate-right 3.2s infinite alternate;
+}
+.animate4-right{
+    animation: animate-right 3.3s infinite alternate;
+}
+.animate5-right{
+    animation: animate-right 3.4s infinite alternate;
+}
+.animate6-right{
+    animation: animate-right 3.5s infinite alternate;
+}
+.animate7-right{
+    animation: animate-right 3.6s infinite alternate;
+}
+.animate8-right{
+    animation: animate-right 3.7s infinite alternate;
+}
+.animate9-right{
+    animation: animate-right 3.8s infinite alternate;
+}
+.animate10-right{
+    animation: animate-right 3.9s infinite alternate;
+}
+.animate11-right{
+    animation: animate-right 4s infinite alternate;
+}
+.animate12-right{
+    animation: animate-right 4.1s infinite alternate;
+}
+@keyframes animate {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: calc(100% - 32vw);
+    }
+}
+@keyframes animate-right {
+    0% {
+        left: calc(100% - 32vw);
+    }
+    100% {
+        left: 0px;
+    }
+}
